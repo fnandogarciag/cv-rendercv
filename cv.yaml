@@ -1,0 +1,181 @@
+cv:
+  name: Fernando García
+  headline: Desarrollador Web
+  location: Bogotá, Colombia
+  email: fernandgarcia97@hotmail.com
+  phone: "+57 3012206502"
+  social_networks:
+    - network: LinkedIn
+      username: fnandogarciag
+  sections:
+    SOBRE MI:
+      - Desarrollador especializado en React y NodeJS con años de experiencia en la creación de aplicaciones, escalables y de alto rendimiento. Amplio dominio del ecosistema JavaScript/TypeScript, complementado con conocimiento en Vue, Angular. Enfocado en la resolución eficiente de problemas técnicos, la optimización de código y el trabajo colaborativo en productos de alto impacto.
+    EXPERIENCIA LABORAL:
+      - company: Grupo Novus
+        position: Desarrollador Senior
+        start_date: 2023-04
+        end_date: 2023-12
+        summary:
+        highlights:
+          - Participé en la concepción y desarrollo desde cero de una nueva plataforma web interna, utilizando React para la capa de presentación y Node.js (Express) en el entorno del servidor.
+          - Implementé un sistema de comunicación en tiempo real utilizando Socket.IO, permitiendo la transmisión instantánea de eventos e información entre el servidor backend, la interfaz web y la aplicación móvil.
+          - Coordiné la sincronización de flujos de trabajo e integridad de datos entre endpoints REST y canales de Sockets para responder adecuadamente a las operaciones de los usuarios en la app móvil.
+      - company: Telx Computers Inc
+        position: Desarrollador FullStack
+        start_date: 2021-10
+        end_date: 2021-10
+        summary:
+        highlights:
+          - Implementación de nuevos módulos y funcionalidades en la plataforma web utilizando Laravel en el backend y VueJS en el frontend, mejorando la interactividad y la experiencia del usuario.
+      - company: Wings Mobile
+        position: Desarrollador Web
+        start_date: 2020-11
+        end_date: 2021-06
+        summary:
+        highlights:
+          - Maquetación y desarrollo de páginas promocionales y de aterrizaje (landing pages) utilizando HTML5, CSS3 y JavaScript vanilla, asegurando un diseño responsivo y optimizado para SEO.
+          - Participación en la migración del sitio web hacia una nueva plataforma corporativa desarrollada en Laravel (PHP), integrando el backend con interfaces dinámicas para modernizar la arquitectura del sistema y mejorar la presencia digital de la marca.
+    EDUCACIÓN:
+      - company: Universidad Del Norte
+        position: Ingenieria Electronica
+        location: Barranquilla, Colombia
+        summary: 2015 - 2020
+    OTROS CONOCIMIENTOS:
+      - name: Tecnicos
+        highlights:
+          - HTML, CSS, JavaScript, ReactJS, NextJS, VueJS, Angular, React Native
+          - NodeJS, NestJS, PHP, Laravel, Java, Spring, Python, FastAPI, Django, C#, .NET
+          - MySQL, PostgreSQL, MongoDB, Oracle, SQL Server
+          - TypeScript, Git, GitHub, Docker
+design:
+  theme: classic
+  page:
+    size: us-letter
+    top_margin: 0.7in
+    bottom_margin: 0.7in
+    left_margin: 0.7in
+    right_margin: 0.7in
+    show_footer: true
+    show_top_note: true
+  colors:
+    body: rgb(0, 0, 0)
+    name: rgb(0, 79, 144)
+    headline: rgb(0, 79, 144)
+    connections: rgb(0, 79, 144)
+    section_titles: rgb(0, 79, 144)
+    links: rgb(0, 79, 144)
+    footer: rgb(128, 128, 128)
+    top_note: rgb(128, 128, 128)
+  typography:
+    line_spacing: 0.6em
+    alignment: justified
+    date_and_location_column_alignment: right
+    font_family:
+      body: Source Sans 3
+      name: Source Sans 3
+      headline: Source Sans 3
+      connections: Source Sans 3
+      section_titles: Source Sans 3
+    font_size:
+      body: 10pt
+      name: 30pt
+      headline: 10pt
+      connections: 10pt
+      section_titles: 1.4em
+    small_caps:
+      name: false
+      headline: false
+      connections: false
+      section_titles: false
+    bold:
+      name: true
+      headline: false
+      connections: false
+      section_titles: true
+  links:
+    underline: false
+    show_external_link_icon: false
+  header:
+    alignment: center
+    photo_width: 3.5cm
+    photo_position: left
+    photo_space_left: 0.4cm
+    photo_space_right: 0.4cm
+    space_below_name: 0.7cm
+    space_below_headline: 0.7cm
+    space_below_connections: 0.7cm
+    connections:
+      phone_number_format: national
+      hyperlink: true
+      show_icons: true
+      display_urls_instead_of_usernames: false
+      separator: ''
+      space_between_connections: 0.5cm
+  section_titles:
+    type: with_partial_line
+    line_thickness: 0.5pt
+    space_above: 0.5cm
+    space_below: 0.3cm
+  sections:
+    allow_page_break: true
+    space_between_regular_entries: 1.2em
+    space_between_text_based_entries: 0.3em
+    show_time_spans_in:
+      - experience
+  entries:
+    date_and_location_width: 4.15cm
+    side_space: 0.2cm
+    space_between_columns: 0.1cm
+    allow_page_break: false
+    short_second_row: true
+    degree_width: 1cm
+    summary:
+      space_above: 0cm
+      space_left: 0cm
+    highlights:
+      bullet: •
+      nested_bullet: •
+      space_left: 0.15cm
+      space_above: 0cm
+      space_between_items: 0cm
+      space_between_bullet_and_text: 0.5em
+  templates:
+    footer: ''
+    top_note: ''
+    single_date: MONTH_ABBREVIATION YEAR
+    date_range: START_DATE – END_DATE
+    time_span: HOW_MANY_YEARS YEARS HOW_MANY_MONTHS MONTHS
+    one_line_entry:
+      main_column: '**LABEL:** DETAILS'
+    education_entry:
+      main_column: |-
+        **INSTITUTION**, AREA
+        SUMMARY
+        HIGHLIGHTS
+      degree_column: '**DEGREE**'
+      date_and_location_column: |-
+        LOCATION
+        DATE
+    normal_entry:
+      main_column: |-
+        **NAME**
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column: |-
+        LOCATION
+        DATE
+    experience_entry:
+      main_column: |-
+        **COMPANY**, POSITION
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column: |-
+        LOCATION
+        DATE
+    publication_entry:
+      main_column: |-
+        **TITLE**
+        SUMMARY
+        AUTHORS
+        URL (JOURNAL)
+      date_and_location_column: DATE
